@@ -65,7 +65,7 @@ class App extends Component {
           click={this.switchNameHandler.bind(this, 'Maximilian')}
           changed={this.nameChangedHandler}
         >
-          Hobbies: Riding motorcycles
+          My hobby is riding motorcycles
         </Person>
         <Person
           name={this.state.persons[2].name}
